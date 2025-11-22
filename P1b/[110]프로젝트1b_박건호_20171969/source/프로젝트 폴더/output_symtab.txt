@@ -1,0 +1,25 @@
+COPY        0x0         
+BUFFER      0x33        COPY
+BUFEND      0x1033      COPY
+LENGTH      0x2D        COPY
+RDREC       REF         
+WRREC       REF         
+FIRST       0x0         COPY
+RETADR      0x2A        COPY
+CLOOP       0x3         COPY
+ENDFIL      0x17        COPY
+MAXLEN      0x1000      
+
+RDREC       0x0         
+BUFFER      REF         
+LENGTH      REF         
+BUFEND      REF         
+MAXLEN      0x28        RDREC
+RLOOP       0x9         RDREC
+INPUT       0x27        RDREC
+EXIT        0x20        RDREC
+
+WRREC       0x0         
+LENGTH      REF         
+BUFFER      REF         
+WLOOP       0x6         WRREC
